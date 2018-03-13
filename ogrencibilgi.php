@@ -39,7 +39,8 @@
 		else
 		{
 			
-			
+			$dosya=fopen("bilgi.txt","a");
+			$yazilicak=$_Post["no"],"-",$_Post["adi"],"-",$_Post["soyadi"]
 			
 			
 			
